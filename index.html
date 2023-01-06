@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Information</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    
+</head>
+<body>
+    <h2>Countries Information</h2>
+    <hr>
+    <div>
+        <form id="form1">
+            <label for="">Search Country:</label>
+            <input id="searchInput" type="text" />
+            <button id="searchBtn">Search</button>
+        </form>
+    </div>
+    <hr>
+    <p id="totalCountriesResult">Total Countries Result:</p>
+    <p id="totalCountriesPopulation">Total Countries Population:</p>
+    <p id="averagePopulation">Average Population:</p>
+    <hr>
+    <div id="tableContainer1">
+        <table id="tableOne">
+            <tr>
+                <td>Country Name</td>
+                <td>Number of citizens</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div id="tableContainer2">
+        <table id="tableTwo">
+            <tr>
+                <td>Region</td>
+                <td>Number of countries</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
